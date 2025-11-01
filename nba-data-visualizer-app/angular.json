@@ -74,7 +74,8 @@
               "buildTarget": "nba-data-visualizer-app:build:production"
             },
             "development": {
-              "buildTarget": "nba-data-visualizer-app:build:development"
+              "buildTarget": "nba-data-visualizer-app:build:development",
+              "proxyConfig": "src/proxy.conf.json"
             }
           },
           "defaultConfiguration": "development"
